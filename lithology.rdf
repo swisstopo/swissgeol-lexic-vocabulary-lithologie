@@ -228,6 +228,7 @@
 	<skos:prefLabel xml:lang="fr">basalte</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">basalto</skos:prefLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/RockBasaltic"/>
+	<skos:related rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Gabbro"/>
 	<admsstatus xmlns="http://www.w3.org/ns/" xml:lang="en">active</admsstatus>
 </rdf:Description>
 
@@ -392,7 +393,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/Breccia">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic rock with angular elements; the fragmentation processes is not further specified</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic rock with angular components; the fragmentation processes (sedimentary or tectonic) is not further specified</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Brekzie</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">breccia</skos:prefLabel>
@@ -407,6 +408,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/Rock">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">A rock is a natural consolidated material made up of an assemblage of minerals or composite particles.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:topConceptOf rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Gestein</skos:prefLabel>
@@ -416,6 +418,7 @@
 	<skos:altLabel xml:lang="de">Festgestein</skos:altLabel>
 	<skos:altLabel xml:lang="en">consolidated rock</skos:altLabel>
 	<skos:altLabel xml:lang="fr">roche consolidée</skos:altLabel>
+	<skos:altLabel xml:lang="en">stone</skos:altLabel>
 	<skos:hiddenLabel xml:lang="fr">roche indurée</skos:hiddenLabel>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Breccia"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/RockCarbonate"/>
@@ -427,7 +430,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/BrecciaSedimentary">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with angular elements</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with angular components</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Brekzie: sedimentär</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">breccia: sedimentary</skos:prefLabel>
@@ -448,7 +451,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/BrecciaTectonic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic rock with angular elements formed by tectonic fragmentation in a deformation zone</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic rock with angular components formed by tectonic fragmentation in a deformation zone</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Brekzie: tektonisch</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">breccia: tectonic</skos:prefLabel>
@@ -468,7 +471,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/BrecciaPyroclastic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) volcano-clastic rock with angular elements dominantly (&gt; 75%) of pyroclastic origin</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) volcano-clastic rock with angular components dominantly (&gt; 75%) of pyroclastic origin</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Brekzie: pyroklastisch</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">breccia: pyroclastic</skos:prefLabel>
@@ -486,7 +489,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/BrecciaCalcareous">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained clastic sedimentary rock with angular elements essentially of monomictic calcareous composition</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with angular components essentially of monomictic calcareous composition</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Brekzie: kalkig</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">breccia: calcareous</skos:prefLabel>
@@ -505,7 +508,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/BrecciaMonomictic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained clastic sedimentary rock with angular elements of monomictic composition (derived from the same rock type)</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with angular components of monomictic composition (derived from the same rock type)</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Brekzie: monomikt</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">breccia: monomictic</skos:prefLabel>
@@ -540,6 +543,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/BrecciaCalcareousDolomitic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with angular components essentially of calcareous and dolomitic composition</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Brekzie: kalkig-dolomitisch</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">breccia: calcareous-dolomitic</skos:prefLabel>
@@ -560,7 +564,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/BrecciaCalcareousPolymictic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained clastic sedimentary rock with angular elements of dominantly calcareous, though polymictic composition</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with angular components of dominantly calcareous, though polymictic composition</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Brekzie: kalkig-polymikt</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">breccia: calcareous-polymictic</skos:prefLabel>
@@ -577,7 +581,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/BrecciaDolomitic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained clastic sedimentary rock with angular elements essentially of monomictic dolomitic composition</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with angular components essentially of monomictic dolomitic composition</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Brekzie: dolomitisch</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">breccia: dolomitic</skos:prefLabel>
@@ -596,7 +600,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/BrecciaPolymictic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained clastic sedimentary rock with angular elements of polymictic composition (derived from different rock types)</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with angular components of polymictic composition (derived from different rock types)</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Brekzie: polymikt</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">breccia: polymictic</skos:prefLabel>
@@ -617,6 +621,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/BrecciaCataclastic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">cohesive coarse-grained (mean grainsize &gt; 2 mm) clastic rock with angular components formed by tectonic fragmentation in a deformation zone</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Brekzie: kataklastisch</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">breccia: cataclastic</skos:prefLabel>
@@ -636,6 +641,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/BrecciaCataclasticDolomitic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">cohesive coarse-grained (mean grainsize &gt; 2 mm) clastic rock with angular components essentially of monomictic dolomitic composition formed by tectonic fragmentation in a deformation zone</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Brekzie: kataklastisch-dolomitisch</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">breccia: cataclastic-dolomitic</skos:prefLabel>
@@ -654,6 +660,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/BrecciaCataclasticCalcareous">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">cohesive coarse-grained (mean grainsize &gt; 2 mm) clastic rock with angular components essentially of monomictic calcareous composition formed by tectonic fragmentation in a deformation zone</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Brekzie: kataklastisch-kalkig</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">breccia: cataclastic-calcareous</skos:prefLabel>
@@ -672,7 +679,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/BrecciaCrystalline">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained clastic sedimentary rock with angular elements essentially of monomictic crystalline composition</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with angular components essentially of monomictic crystalline composition</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Brekzie: kristallin</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">breccia: crystalline</skos:prefLabel>
@@ -689,7 +696,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/BrecciaCrystallinePolymictic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained clastic sedimentary rock with angular elements of dominantly crystalline, though polymictic composition</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with angular components of dominantly crystalline, though polymictic composition</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Brekzie: kristallin-polymikt</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">breccia: crystalline-polymictic</skos:prefLabel>
@@ -721,7 +728,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/BrecciaDolomiticPolymictic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained clastic sedimentary rock with angular elements of dominantly dolomitic, though polymictic composition</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with angular components of dominantly dolomitic, though polymictic composition</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Brekzie: dolomitisch-polymikt</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">breccia: dolomitic-polymictic</skos:prefLabel>
@@ -738,6 +745,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/BrecciaKakiritic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">non-cohesive coarse-grained (mean grainsize &gt; 2 mm) clastic rock with angular components formed by tectonic fragmentation in a deformation zone</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Brekzie: kakiritisch</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">breccia: kakiritic</skos:prefLabel>
@@ -780,7 +788,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/BrecciaRhyolitic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) volcano-clastic rock with angular elements dominantly (&gt; 75%) of rhyolitic nature</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) volcano-clastic rock with angular components dominantly (&gt; 75%) of rhyolitic nature</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Brekzie: rhyolithisch</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">breccia: rhyolitic</skos:prefLabel>
@@ -841,7 +849,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/BrecciaTuffitic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) volcano-clastic sedimentary rock with a large proportion (25-75%) of angular elements of pyroclastic origin</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) volcano-clastic sedimentary rock with a large proportion (25-75%) of angular components of pyroclastic origin</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Brekzie: tuffitisch</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">breccia: tuffitic</skos:prefLabel>
@@ -1523,7 +1531,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/Conglomerate">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with rounded elements</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with rounded components</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Konglomerat</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">conglomerate</skos:prefLabel>
@@ -1544,7 +1552,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/ConglomerateMonomictic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained clastic sedimentary rock with rounded elements of monomictic composition (derived from the same rock type)</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with rounded components of monomictic composition (derived from the same rock type)</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Konglomerat: monomikt</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">conglomerate: monomictic</skos:prefLabel>
@@ -1563,7 +1571,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/ConglomeratePolymictic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained clastic sedimentary rock with rounded elements of polymictic composition (derived from different rock types)</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with rounded components of polymictic composition (derived from different rock types)</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Konglomerat: polymikt</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">conglomerate: polymictic</skos:prefLabel>
@@ -1582,7 +1590,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/ConglomeratePyroclastic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with rounded elements dominantly (&gt; 75%) of volcanic origin</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with rounded components dominantly (&gt; 75%) of volcanic origin</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Konglomerat: pyroklastisch</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">conglomerate: pyroclastic</skos:prefLabel>
@@ -1599,7 +1607,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/ConglomerateQuartz">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained clastic sedimentary rock with rounded elements essentially of monomictic quartzitic composition</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with rounded components essentially of monomictic quartzitic composition</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Konglomerat: Quarz</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">conglomerate: quartz</skos:prefLabel>
@@ -1633,7 +1641,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/ConglomerateCalcareous">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained clastic sedimentary rock with rounded elements essentially of monomictic calcareous composition</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with rounded components essentially of monomictic calcareous composition</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Konglomerat: kalkig</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">conglomerate: calcareous</skos:prefLabel>
@@ -1674,6 +1682,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/ConglomerateCalcareousDolomitic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with rounded components essentially of calcareous and dolomitic composition</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Konglomerat: kalkig-dolomitisch</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">conglomerate: calcareous-dolomitic</skos:prefLabel>
@@ -1694,7 +1703,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/ConglomerateDolomitic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained clastic sedimentary rock with rounded elements essentially of monomictic dolomitic composition</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with rounded components essentially of monomictic dolomitic composition</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Konglomerat: dolomitisch</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">conglomerate: dolomitic</skos:prefLabel>
@@ -1729,7 +1738,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/ConglomerateCrystalline">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained clastic sedimentary rock with rounded elements essentially of monomictic crystalline composition</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with rounded components essentially of monomictic crystalline composition</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Konglomerat: kristallin</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">conglomerate: crystalline</skos:prefLabel>
@@ -1746,7 +1755,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/ConglomerateOphiolitic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained clastic sedimentary rock with rounded elements dominantly of ophiolitic origin</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with rounded components dominantly of ophiolitic origin</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Konglomerat: ophiolithisch</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">conglomerate: ophiolitic</skos:prefLabel>
@@ -1762,7 +1771,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/ConglomeratePolymicticBioclasts">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained clastic sedimentary rock with rounded elements of dominantly bioclastic calcareous, though polymictic composition</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with rounded components of dominantly bioclastic calcareous, though polymictic composition</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Konglomerat: polymikt: Bioklasten</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">conglomerate: polymictic: bioclasts</skos:prefLabel>
@@ -1778,7 +1787,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/ConglomeratePolymicticQuartz">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">coarse-grained clastic sedimentary rock with rounded elements of dominantly quartzitic, though polymictic composition</skos:definition>
+	<skos:definition xml:lang="en">coarse-grained (mean grainsize &gt; 2 mm) clastic sedimentary rock with rounded components of dominantly quartzitic, though polymictic composition</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Konglomerat: polymikt: Quarz</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">conglomerate: polymictic: quartz</skos:prefLabel>
@@ -2504,6 +2513,7 @@
 	<skos:altLabel xml:lang="en">evaporitic rock</skos:altLabel>
 	<skos:altLabel xml:lang="fr">roche évaporitique</skos:altLabel>
 	<skos:altLabel xml:lang="it">roccia evaporitica</skos:altLabel>
+	<skos:altLabel xml:lang="de">Evaporitgestein</skos:altLabel>
 	<skos:hiddenLabel xml:lang="en">salt rock</skos:hiddenLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/RockSedimentary"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/EvaporiteAnhydrite"/>
@@ -2543,6 +2553,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/EvaporiteAnhydrite">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">Anhydrite (rock) is a saline evaporitic sedimentary rock mainly composed of the mineral anhydrite.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Evaporit: Anhydrit</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">evaporite: anhydrite</skos:prefLabel>
@@ -2561,6 +2572,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/EvaporiteGypsum">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">Gypsum (rock) is a saline evaporitic sedimentary rock mainly composed of the mineral gypsum.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Evaporit: Gips</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">evaporite: gypsum</skos:prefLabel>
@@ -2579,6 +2591,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/EvaporiteHalite">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">Halite (rock) is a saline evaporitic sedimentary rock mainly composed of the mineral halite (NaCl).</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Evaporit: Halit</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">evaporite: halite</skos:prefLabel>
@@ -2598,6 +2611,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/EvaporiteSulfate">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">saline evaporitic sedimentary rock mainly composed of the sulfate minerals</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Evaporit: Sulfat</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">evaporite: sulfate</skos:prefLabel>
@@ -3138,6 +3152,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/GneissMagmatic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">An orthogneiss (gneiss derived from a magmatic protolith) is a metamorphic rock with a gneissic texture resulting from the transformation of a plutonic rock of granitic to dioritic composition.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Gneis: magmatisch</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">gneiss: magmatic</skos:prefLabel>
@@ -3265,6 +3280,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/GneissSedimentary">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">A paragneiss (gneiss derived from a sedimentary protolith) is a metamorphic rock with a gneissic texture resulting from the transformation of a medium- to coarse-grained sedimentary rock.</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Gneis: sedimentär</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">gneiss: sedimentary</skos:prefLabel>
@@ -4555,7 +4571,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/RockCarbonateSedimentary">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">carbonate-rich rock formed by sedimentary processes; it encompasses primarily limestone and marlstone</skos:definition>
+	<skos:definition xml:lang="en">carbonate-rich rock formed by sedimentary processes; it encompasses primarily limestone, marlstone and dolostone</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Gestein: Karbonat-sedimentär</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">rock: carbonate-sedimentary</skos:prefLabel>
@@ -7441,6 +7457,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/MaterialUnconsolidated">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">An unconsolidated material (sometimes inappropriately called unconsolidated rock) is a loose assemblage of components (grains, minerals, composite particles). Although lacking solid mineral bounds, such material can be cohesive due adhesive properties of its consituents (e.g. clay minerals, organic matter).</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:topConceptOf rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Material: locker</skos:prefLabel>
@@ -7937,7 +7954,7 @@
 
 <rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/RockPlutonic">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">magmatic rock whose intrusive emplacement took place at depth</skos:definition>
+	<skos:definition xml:lang="en">granular magmatic rock whose intrusive emplacement took place at depth</skos:definition>
 	<skos:inScheme rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/Lithology"/>
 	<skos:prefLabel xml:lang="de">Gestein: plutonisch</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">rock: plutonic</skos:prefLabel>
@@ -9377,6 +9394,7 @@
 	<skos:altLabel xml:lang="en">bioclastic calcareous sandstone</skos:altLabel>
 	<skos:altLabel xml:lang="fr">grès calcaire bioclastique</skos:altLabel>
 	<skos:altLabel xml:lang="it">arenaria calcarea bioclastica</skos:altLabel>
+	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneBioclasts"/>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneCalcareous"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneCalcareousBivalves"/>
 	<skos:narrower rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneCalcareousNummulites"/>
@@ -9396,6 +9414,7 @@
 	<skos:altLabel xml:lang="fr">grès calcaire glauconieux</skos:altLabel>
 	<skos:altLabel xml:lang="it">arenaria calcarea glauconitica</skos:altLabel>
 	<skos:hiddenLabel xml:lang="de">kalkiger Glaukonitsandstein</skos:hiddenLabel>
+	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneGlauconite"/>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneCalcareous"/>
 	<skos:related rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneGlauconite"/>
 	<admsstatus xmlns="http://www.w3.org/ns/" xml:lang="en">active</admsstatus>
@@ -9413,6 +9432,7 @@
 	<skos:altLabel xml:lang="fr">grès calcaire micacé</skos:altLabel>
 	<skos:altLabel xml:lang="it">arenaria calcarea micacea</skos:altLabel>
 	<skos:hiddenLabel xml:lang="de">Glimmer-führender Kalksandstein</skos:hiddenLabel>
+	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneMica"/>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneCalcareous"/>
 	<skos:related rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneMica"/>
 	<admsstatus xmlns="http://www.w3.org/ns/" xml:lang="en">active</admsstatus>
@@ -9430,6 +9450,7 @@
 	<skos:altLabel xml:lang="fr">grès calcaire charbonneux</skos:altLabel>
 	<skos:altLabel xml:lang="it">arenaria calcarea con carbone</skos:altLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneCalcareous"/>
+	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneCoal"/>
 	<skos:related rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneCoal"/>
 	<admsstatus xmlns="http://www.w3.org/ns/" xml:lang="en">active</admsstatus>
 </rdf:Description>
@@ -9447,6 +9468,7 @@
 	<skos:altLabel xml:lang="it">arenaria calcarea quarzosa</skos:altLabel>
 	<skos:hiddenLabel xml:lang="de">Quarz-führender Kalksandstein</skos:hiddenLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneCalcareous"/>
+	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneQuartz"/>
 	<skos:related rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneQuartz"/>
 	<admsstatus xmlns="http://www.w3.org/ns/" xml:lang="en">active</admsstatus>
 </rdf:Description>
@@ -9738,6 +9760,7 @@
 	<skos:altLabel xml:lang="fr">grès micacé glauconieux</skos:altLabel>
 	<skos:altLabel xml:lang="it">arenaria micacea glauconitica</skos:altLabel>
 	<skos:hiddenLabel xml:lang="de">Glimmer-führender Glaukonitsandstein</skos:hiddenLabel>
+	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneGlauconite"/>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneMica"/>
 	<skos:related rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneGlauconite"/>
 	<admsstatus xmlns="http://www.w3.org/ns/" xml:lang="en">active</admsstatus>
@@ -9755,6 +9778,7 @@
 	<skos:altLabel xml:lang="fr">grès quartzeux glauconieux</skos:altLabel>
 	<skos:altLabel xml:lang="it">arenaria quarzosa glauconitica</skos:altLabel>
 	<skos:hiddenLabel xml:lang="de">quarzitischer Glaukonitsandstein</skos:hiddenLabel>
+	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneGlauconite"/>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneQuartz"/>
 	<skos:related rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneGlauconite"/>
 	<admsstatus xmlns="http://www.w3.org/ns/" xml:lang="en">active</admsstatus>
@@ -9773,6 +9797,7 @@
 	<skos:altLabel xml:lang="it">arenaria quarzosa micacea</skos:altLabel>
 	<skos:altLabel xml:lang="de">Quarz-führender Glimmersandstein</skos:altLabel>
 	<skos:altLabel xml:lang="en">quartzitic micaceous sandstone</skos:altLabel>
+	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneMica"/>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneQuartz"/>
 	<skos:related rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/SandstoneMica"/>
 	<admsstatus xmlns="http://www.w3.org/ns/" xml:lang="en">active</admsstatus>
@@ -11121,6 +11146,11 @@
 	<skos:altLabel xml:lang="it">tufo a lapilli</skos:altLabel>
 	<skos:broader rdf:resource="https://dev-lexic.swissgeol.ch/Lithology/TuffVolcanic"/>
 	<admsstatus xmlns="http://www.w3.org/ns/" xml:lang="en">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://dev-lexic.swissgeol.ch/Lithology/conceptScheme_47db5d00">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:prefLabel xml:lang="en">Lithology</skos:prefLabel>
 </rdf:Description>
 
 </rdf:RDF>
