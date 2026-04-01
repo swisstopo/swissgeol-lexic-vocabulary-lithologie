@@ -271,6 +271,11 @@
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/GneissSchistose"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/GneissSedimentary"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/GneissSericite"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/GneissMicrocline"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/GneissCalcsilicate"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/GneissAplitic"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/GneissPhyllitic"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/GneissQuartz"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://lexic.swissgeol.ch/Lithology/active"/>
 </rdf:Description>
 
@@ -375,6 +380,7 @@
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/RockAcidicFilonian"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/RockBasicFilonian"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/Rodingite"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/RockFilonianQuartz"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://lexic.swissgeol.ch/Lithology/active"/>
 </rdf:Description>
 
@@ -883,6 +889,7 @@
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/ClaystoneSchistoseBitumen"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/ClaystoneSilty"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/ClaystoneTuffitic"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/ClaystoneSiliceous"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://lexic.swissgeol.ch/Lithology/active"/>
 </rdf:Description>
 
@@ -1104,6 +1111,7 @@
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/ClaystoneSandyMarly"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/ClaystoneSandyCoal"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/ClaystoneSandySchistose"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/ClaystoneSandyMica"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://lexic.swissgeol.ch/Lithology/active"/>
 </rdf:Description>
 
@@ -4286,6 +4294,7 @@
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/Lithology/Gneiss"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/GneissBiotiteHornblende"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/GneissBiotiteMuscovite"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/GneissBiotitePlagioclase"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://lexic.swissgeol.ch/Lithology/active"/>
 </rdf:Description>
 
@@ -4597,6 +4606,7 @@
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/SchistClayey"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/SchistTourmaline"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/SchistZoisite"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/SchistMuscoviteAlbite"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://lexic.swissgeol.ch/Lithology/active"/>
 </rdf:Description>
 
@@ -5408,6 +5418,7 @@
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/SchistConglomeraticCalcareous"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/SchistSandyCalcareous"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/SchistClayeyCalcareous"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/SchistCalcareousSiliceous"/>
 	<skos:related rdf:resource="https://lexic.swissgeol.ch/Lithology/MarbleSchistose"/>
 	<skos:related rdf:resource="https://lexic.swissgeol.ch/Lithology/PhylliteCalcareous"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://lexic.swissgeol.ch/Lithology/active"/>
@@ -5633,6 +5644,7 @@
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/Lithology/Schist"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/SchistClayeySiliceous"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/SchistClayeySiliceousBitumen"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/SchistCalcareousSiliceous"/>
 	<skos:related rdf:resource="https://lexic.swissgeol.ch/Lithology/RockSiliceousMetamorphic"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://lexic.swissgeol.ch/Lithology/active"/>
 </rdf:Description>
@@ -6893,6 +6905,7 @@
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/LimestoneSpathicGlauconite"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/LimestoneSpathicGlauconiteChert"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/LimestoneSpathicOoids"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/Lithology/LimestoneSpathicBioclastOoids"/>
 	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="https://lexic.swissgeol.ch/Lithology/active"/>
 </rdf:Description>
 
@@ -11529,6 +11542,127 @@
 	<skos:prefLabel xml:lang="de">Prasinit: Glaukophan</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Prasinite: glaucophane</skos:prefLabel>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/Lithology/Prasinite"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/Lithology/RockFilonianQuartz">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/Lithology/"/>
+	<skos:prefLabel xml:lang="en">rock: filonian: quartz</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Ganggestein: gangartig; Quarz</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">roche: filonien: quartz</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">roccia: filoniano: quarzo</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/Lithology/RockFilonian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/Lithology/GneissMicrocline">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/Lithology/"/>
+	<skos:prefLabel xml:lang="en">gneiss: microcline</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Gneis: Mikroklin</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">gneiss: microcline</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">gneiss: microclino</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/Lithology/Gneiss"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/Lithology/GneissCalcsilicate">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/Lithology/"/>
+	<skos:prefLabel xml:lang="en">gneiss: calcsilicate</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Gneis: Kalksilikat</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">gneiss: calcsilicate</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">gneiss: calcsilicati</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/Lithology/Gneiss"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/Lithology/GneissBiotitePlagioclase">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/Lithology/"/>
+	<skos:prefLabel xml:lang="en">gneiss: biotite-plagioclase</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Gneis: Biotit-Plagioklas</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">gneiss: biotite-plagioclase</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">gneiss: biotite-plagioclasio</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/Lithology/GneissBiotite"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/Lithology/GneissAplitic">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/Lithology/"/>
+	<skos:prefLabel xml:lang="en">gneiss: aplitic</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Gneis: apltisich</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">gneiss: aplitique</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">gneiss: aplitico</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/Lithology/Gneiss"/>
+	<skos:related rdf:resource="https://lexic.swissgeol.ch/Lithology/Aplite"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/Lithology/GneissPhyllitic">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/Lithology/"/>
+	<skos:prefLabel xml:lang="en">gneiss: phyllitic</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Gneis: phyllitisch</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">gneiss: phyllitique</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">gneiss: filitico</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/Lithology/Gneiss"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/Lithology/GneissQuartz">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/Lithology/"/>
+	<skos:prefLabel xml:lang="en">gneiss: quartz</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Gneis: Quarz</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">gneiss: quartz</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">gneiss: quarzo</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/Lithology/Gneiss"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/Lithology/SchistMuscoviteAlbite">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/Lithology/"/>
+	<skos:prefLabel xml:lang="en">schist: muscovite-albite</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Schiefer: Muskovit-Albit</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">schiste: muscovite-albite</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">scisto: muscovite-albite</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/Lithology/Schist"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/Lithology/SchistCalcareousSiliceous">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/Lithology/"/>
+	<skos:prefLabel xml:lang="en">schist: calcareous-siliceous</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Schiefer: kalkig-kieselig</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">schiste: calcaire-siliceux</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">scisto: calcareo-siliceo</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/Lithology/SchistCalcareous"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/Lithology/LimestoneSpathicBioclastOoids">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/Lithology/"/>
+	<skos:prefLabel xml:lang="en">limestone: spathic: bioclast-ooids</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Kalkstein: spätig: Bioklasten-Ooide</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">calcaire: spathique: bioclastes-ooïdes</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">calcare: spatico: bioclasti-ooidi</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/Lithology/LimestoneSpathic"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/Lithology/ClaystoneSiliceous">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/Lithology/"/>
+	<skos:prefLabel xml:lang="en">claystone: siliceous</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">argilite: siliceux</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Tonstein: kieselig</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">argillite: siliceo</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/Lithology/Claystone"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/Lithology/ClaystoneSandyMica">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/Lithology/"/>
+	<skos:prefLabel xml:lang="en">claystone: sandy: mica</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Tonstein: sandig: Glimmer</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">argilite: gréseux: mica</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">argillite: sabbioso: mica</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/Lithology/ClaystoneSandy"/>
 </rdf:Description>
 
 </rdf:RDF>
